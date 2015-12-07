@@ -1,0 +1,44 @@
+TODO list :
+
+SUBJECT: [/]
+[\] PROJECT
+ |
+[X] ID3 Reader
+ |
+ |_ [X] Output Format
+ '   \._ [X] Identifiers
+ |    |_ [X] Default Values
+ '    |_ [X] Default Values
+ |_ [X] Error codes
+ '_ [X] Directory Browsing and Boost FileSystem
+ |_ [X] Unicode and Qt
+ |
+[_] Media Player
+ |
+ |_ [_] Qt
+ |_ [_] libVLC
+ |_ [_] Playlists
+ '   \._ [_] Loading
+ |    |_ [_] Creation
+ '    |_ [_] Exporting
+ |
+[/] ID3 Writer
+ |
+ |_ [_] MP3 Editing
+
+
+MAKEFILE: [/]
+[X] all
+[X] clean
+[X] distclean
+[X] doc
+[X] dist
+
+DOXYGEN: [X]
+----
+Caption :
+[ ] -> To do
+[/] -> Started
+[_] -> To test
+[X] -> Done
+[B] -> Bonus

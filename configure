@@ -1,0 +1,20 @@
+#! /bin/bash
+arg=$1
+
+if [ "${arg}" = "--help" ]; then
+ echo "Usage: configure [OPTIONS]"
+ echo "Create the file .Makefile.rules and directories needed (lib/ and build/)"
+ echo ""
+ echo "Options:"
+ echo "     --with-debug    : compile the program with option \"-g -ggdb\""
+ echo "     --help          : print this help message."
+else
+ echo "DISTDIR=el-kam_y-rushcpp" > .Makefile.rules
+ echo "TARBALL=el-kam_y-rushcpp.tar.bz2" >> .Makefile.rules
+ echo "OUTFILES=zic-end">> .Makefile.rules
+ if [ "${arg}" = "--with-debug" ]; then
+  echo -n "CFLAGS=g++ -Wall -Wextra -Werror -std=c++0x -g -ggdb -pedantic"
+ else
+  echo -n "CFLAGS=g++ -Wall -Wextra -Werror -std=c++0x -pedantic" >> .Makefile.rules
+ fi
+fi
