@@ -1,64 +1,24 @@
-     _______     ________       _       ______   ____    ____  ________
-    |_   __ \   |_   __  |     / \     |_   _ `.|_   \  /   _||_   __  |
-      | |__) |    | |_ \_|    / _ \      | | `. \ |   \/   |    | |_ \_|
-      |  __ /     |  _| _    / ___ \     | |  | | | |\  /| |    |  _| _
-     _| |  \ \_  _| |__/ | _/ /   \ \_  _| |_.' /_| |_\/_| |_  _| |__/ |
-    |____| |___||________||____| |____||______.'|_____||_____||________|
-
-
-------------------------------------------------------------------------------
-------------------------------------------------------------------------------
-|					|		                     |
-|   Made by     :  Youcef EL KAMEL	|		PROJECT		     |
-|    	 	   Said ESSAKI          |                                    |
-|   	 	   			|  	     	"Zik-end"	     |
-|   Login       :  el-kamel_y		|				     |
-|    		   essaki_s        	|			     	     |
-|					|				     |
-|   	 	       	      	       	|				     |
-------------------------------------------------------------------------------
-------------------------------------------------------------------------------
-
-
-
 This is project "Zik-end"
 
      This program implements a Reader of MP3 files (ID3V2.3, ID3V2.4).
-
-
-
      This project is divided in three phases:
-
      	    - ID3 Reader :
-
 			|--> Parse a file or a directory, containing MP3 files.
-
 • 	    		|--> Build an internal structure representing the ID3
 	      	    	     data. Our internal structure is composed of 3
 			     classes. One for Artists, one for Albums and the
 			     last one for MP3. Moreover, there is also a list
 			     of Albums in the class Artist, and a list of MP3
 			     in the class Albums.
-
 			|--> Print it on standard output or in a file.
-
-
             - Media Player :
-
-
 	    - ID3 Writer :
 
 
-
-
 You need to use this project like this:
-
     First you have ton install it. To do that, use these commnand :
-
 	- make
 	- ./Zik-end -help : display help
-
-
 
 Makefile have following rules :
 
